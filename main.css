@@ -1,0 +1,64 @@
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+
+header {
+  padding-left: 25px;
+  margin-bottom: 50px;
+}
+
+section {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.problem_content {
+  border: 1px solid gray;
+  padding: 10px 15px;
+  background-color: #ddd;
+}
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+h1, h3 {
+  color: #648880;
+}
+h1, h3, p {
+  margin-bottom: 22px;
+}
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+h3 {
+  font-size: 21px;
+}
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+
+.btn {
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+.btn-alt {
+  border: 1px solid #fff;
+  padding: 10px 30px;
+}
+.btn-alt:hover {
+  background: #fff;
+  color: #648880;
+}
