@@ -20,6 +20,20 @@ section {
   background-color: #ddd;
 }
 
+.answer {
+  margin-top: 10px;
+}
+
+.input {
+  font-size: 12pt;
+  padding: 5px;
+}
+
+.output {
+  color: #648880;
+  font-size: 15pt;
+}
+
 /*
   ========================================
   Typography
