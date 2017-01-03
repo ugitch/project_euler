@@ -5,22 +5,22 @@
 By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 
 Every third number in Fibonacci array is even.
-Furthermore, with a little bit of playing, you can get to the formulas x = x + 2 * y, y = 2 *x + 3 * y for calculating the next even number.
-
+Furthermore, with a little bit of playing, you can get to the formulas F(n) = F(n-3) + 2 * F(n-2), F(n+1) = 2 * F(n-3) + 3 * F(n-2)for calculating next two Fibonacci members. 
+Every 3rd number is in my solution apropriately called "even".
 */
 
 function sumOfEvenFibonacci(){
   var total = 0;
   var prev = 1;
   var even = 2; 
-  var tPrev, tEven;
+  var newPrev, newEven;
 
   while(even < 4000000){
     total += even;
-    tPrev = prev + 2 * even;
-    tEven = 2 * prev + 3 * even;
-    prev = tPrev; 
-    even = tEven;
+    newPrev = prev + 2 * even;
+    newEven = 2 * prev + 3 * even;
+    prev = newPrev; 
+    even = newEven;
   }
   return total;
 }
