@@ -24,3 +24,8 @@ function sumOfEvenFibonacci(){
   }
   return total;
 }
+
+function calculateFibonacci(){
+  let answer = document.getElementById("answer_02");
+  answer.innerHTML = sumOfEvenFibonacci();
+}

@@ -1,4 +1,4 @@
-/*  If we list all the natural numbers below 10 that are multiples   of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23. Find the sum of all the multiples of 3 or 5 below 1000. 
+/*  If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23. Find the sum of all the multiples of 3 or 5 below 1000. 
   
 Best solution, based on previous one
 for n = 3, 3+6+9+12+......+999=3*(1+2+3+4+...+333)
@@ -13,8 +13,8 @@ function sumDivisibleBy(n, target) {
 }
 
 function sumMultiplesOfThreeAndFive() {
-  var input = document.getElementById("problem_input");
-  var answer = document.getElementById("answer");
+  var input = document.getElementById("problem_input_01");
+  var answer = document.getElementById("answer_01");
 
   var target = input.value - 1;
 
